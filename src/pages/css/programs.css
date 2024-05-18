@@ -3,12 +3,22 @@
     --height:3rem;
     --margin:10%;
 }
-.body{
-  min-height:100vh;
+
+body{
+  background:#d6d6d6ee;
+
+
+}
+.title{
+  padding-top:1rem;
+  font-family:var(--normal);
+  padding-left:var(--margin);
 }
 .programCards{
-  display:flex;  
-  padding-top:5% ;
+  display:grid;
+  grid-template-columns: auto auto;  
+  grid-gap: 1rem;
+  padding-top:1rem ;
   padding-left:var(--margin);
   padding-right:var(--margin);
   flex-wrap:wrap;
@@ -17,11 +27,9 @@
 
 .programCard{
   background: #FAFAFA;
-  flex: 0 0 48%;
   border-radius:0.25rem;
-  padding:1rem;
-  margin-bottom:1rem;
-  box-shadow:var(--black) 0.5px 0.5px;
+  padding:2%;
+  box-shadow:#9f9f9fe3 2px 2px 1px 0px;
     font-family: "Nunito Sans", sans-serif;
 }
 .programCard h1{
@@ -111,4 +119,23 @@
 }
 .programCard a:hover{
   color:white;
+}
+
+.back img{
+  height:100%;
+}
+.back{
+  height:1rem;
+  display:inline-block;
+}
+.body{
+  min-height:100vh;
+  padding:2rem 20%;
+  font-family:var(--normal);
+}
+.back::before{
+  inset:4px;
+}
+.infoTitle{
+  margin-top:2rem;
 }

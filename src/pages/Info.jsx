@@ -11,10 +11,11 @@ export default function Info() {
   return (
     <>
     <Nav></Nav>
-    <div>
+    <div class="body">
+      <a className='back'> <img src = "/back.svg" alt="back"/>Back to Home</a>
       {result ? (
         <div>
-          <h2>{result.Heading}</h2>
+          <h2 className='infoTitle'>{result.Heading}</h2>
           <p>{result.text}</p>
         </div>
       ) : (

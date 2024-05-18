@@ -14,7 +14,7 @@ export default function Programs() {
   return (
     <>
       <Nav />
-      <h1>Programs</h1>
+      <h1 class="title">Programs</h1>
       <div className="searchContainer">
 
         <div className="search">
@@ -74,7 +74,7 @@ function List(props) {
             Tags: {item.tags[0]}, {item.tags[1]}
           </p>
           <p>{item.text}</p>
-          <a>Hello</a>
+          <a href={"programs/" + item.Heading}>Learn More</a>
         </div>
       ))}
     </div>
