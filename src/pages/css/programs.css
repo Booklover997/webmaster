@@ -1,0 +1,114 @@
+
+:root{
+    --height:3rem;
+    --margin:10%;
+}
+.body{
+  min-height:100vh;
+}
+.programCards{
+  display:flex;  
+  padding-top:5% ;
+  padding-left:var(--margin);
+  padding-right:var(--margin);
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.programCard{
+  background: #FAFAFA;
+  flex: 0 0 48%;
+  border-radius:0.25rem;
+  padding:1rem;
+  margin-bottom:1rem;
+  box-shadow:var(--black) 0.5px 0.5px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.programCard h1{
+  font-weight:normal;
+  padding-bottom:0.5rem;
+}
+
+.searchContainer{
+  padding-left:var(--margin);
+    display:flex;
+  align-items:center;
+  padding-right:var(--margin);
+}
+.search{
+
+  border-radius:5rem;
+  background:white;
+  height:var(--height);
+  display:flex;
+  padding:0.25rem 2rem 0.25rem 2rem;
+  margin:1rem 1% 1rem 0;
+    box-shadow:grey 1px 1px 1px;
+      width: calc(100% - calc(0.5rem * 3 + 2rem * 3 + 10px * 3));
+  align-items:center;
+  justify-content:center;
+}
+.search img{
+  height:90%;
+}
+.search input{
+  background:none;
+  border:none;
+  font-size:2rem;
+  width:100%;
+  outline: none;
+  margin-left:1rem;
+}
+.icons{
+  display:flex;
+  width:auto;
+}
+.icon{
+  background:white;
+  width:var(--height);
+  position:relative;
+  height:var(--height);
+  border-radius:100px;
+  padding:0.25rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+      box-shadow:grey 1px 1px 1px;
+  margin-right:10px;
+
+  
+}
+
+.icon img{
+  height:85%;
+}
+
+.programCard a{
+  color:var(--darkBlue);
+    font-family: var(--normal);
+  font-size:20px;
+  display:inline-block;
+  position:relative;
+    z-index:7;
+  margin-top:0.5rem;
+  
+}
+.programCard a::before{
+  background:var(--darkBlue);
+  transform:scaleY(0.1);
+  transition:transform 120ms cubic-bezier(0.23, 1, 0.32, 1) 0s, background 120ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  content:"";
+  position:absolute;
+    bottom:-0.075em;
+  z-index:-1;
+  inset:0px;
+  transform-origin: center bottom;
+  display:block;
+}
+
+.programCard a:hover::before{
+  transform:scaleY(1);
+}
+.programCard a:hover{
+  color:white;
+}
