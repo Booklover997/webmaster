@@ -138,4 +138,27 @@ body{
 }
 .infoTitle{
   margin-top:2rem;
+  font-size:3rem;
+}
+.tag{
+  border-radius:360px;
+  background:white;
+  display:inline-block;
+  padding:0.25rem 0.5rem;
+  margin-right:1rem;
+  position:relative;
+}
+.learnMore{
+  position:absolute;
+  background:white;
+  opacity:0;
+  padding:0.5rem;
+  top:100%;
+  width:7rem;
+  box-shadow:grey 0px 0px 6px;
+
+}
+.tag:hover .learnMore{
+  opacity:1;
+  
 }
