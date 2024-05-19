@@ -13,7 +13,7 @@ export default function Info() {
     <div class="body">
       {result ? (
         <>
-              <div className='infoHeader'><a href="../programs" className='back'> <img src = "/back.svg" alt="back"/>Back to Home</a>
+              <div className='infoHeader'><a href="../programs" className='back'> <img src = "/back.svg" alt="back"/>View All</a>
       <h2 className='infoTitle'>{result.Heading}</h2>
       </div>
         <div class="infoGrid">
@@ -21,9 +21,9 @@ export default function Info() {
           <p>{result.text}</p>
           </div>
           <div class="infoInfo">
-            <h3 class="tagHearder">Tags</h3>
+            <h3 class="tagHeader">Tags</h3>
           {result.tags.map((tag) => (
-          <a href={`../programs?search=${tag}`} className="tag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
+          <a href={`../programs?search=${tag}`} className="tag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}s!</div></a>
         ))}
         <h3 className="savingsHeader">Savings</h3>
         <a className="savings">$400</a>

@@ -44,6 +44,7 @@ export default function Programs() {
         </div>
       </div>
       <List input={search} />
+      <Footer/>
     </>
   );
 }
@@ -76,7 +77,7 @@ function List(props) {
           <h1>{item.Heading}</h1>
           <p>
             Tags: {item.tags.map((tag) => (
-          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
+          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}s!</div></a>
         ))}
           </p>
           <p>{item.text}</p>
