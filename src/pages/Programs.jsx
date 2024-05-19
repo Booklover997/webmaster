@@ -1,15 +1,19 @@
 import React, { useState } from "react";
-import "./css/styles.css";
-import "./css/programs.css";
 import {Nav,Footer} from "./Nav.jsx";
 import data from  "./data.json";
+import { useLocation } from "react-router-dom";
+import "./css/styles.css";
+import "./css/programs.css";
 
 export default function Programs() {
-  const [search, changeSearch] = useState("");
+  // check if parameter in url is present
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const state = searchParams.get("search") || "";
+  const [search, changeSearch] = useState(state);
 
   function handleInputChange(event) {
     changeSearch(event.target.value);
-    console.log(search);
   }
   return (
     <>
@@ -71,10 +75,12 @@ function List(props) {
         <div className="programCard" key={item.Heading}>
           <h1>{item.Heading}</h1>
           <p>
-            Tags: {item.tags[0]}, {item.tags[1]}
+            Tags: {item.tags.map((tag) => (
+          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
+        ))}
           </p>
           <p>{item.text}</p>
-          <a href={"programs/" + item.Heading}>Learn More</a>
+          <a className="link" href={"programs/" + item.Heading}>Learn More</a>
         </div>
       ))}
     </div>

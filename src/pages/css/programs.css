@@ -7,7 +7,6 @@
 body{
   background:#d6d6d6ee;
 
-
 }
 .title{
   padding-top:1rem;
@@ -91,7 +90,7 @@ body{
   height:85%;
 }
 
-.programCard a{
+.programCard .link{
   color:var(--darkBlue);
     font-family: var(--normal);
   font-size:20px;
@@ -101,7 +100,7 @@ body{
   margin-top:0.5rem;
   
 }
-.programCard a::before{
+.programCard .link::before{
   background:var(--darkBlue);
   transform:scaleY(0.1);
   transition:transform 120ms cubic-bezier(0.23, 1, 0.32, 1) 0s, background 120ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
@@ -114,10 +113,10 @@ body{
   display:block;
 }
 
-.programCard a:hover::before{
+.programCard .link:hover::before{
   transform:scaleY(1);
 }
-.programCard a:hover{
+.programCard .link:hover{
   color:white;
 }
 
@@ -129,24 +128,34 @@ body{
   display:inline-block;
 }
 .body{
-  min-height:100vh;
-  padding:2rem 20%;
-  font-family:var(--normal);
+  min-height:90vh;
+  background:white;
+    font-family:var(--normal);
+
+}
+.body>*{
+  padding:0 20%;
 }
 .back::before{
   inset:4px;
 }
 .infoTitle{
-  margin-top:2rem;
   font-size:3rem;
 }
 .tag{
+  margin-top:1rem;
   border-radius:360px;
-  background:white;
   display:inline-block;
   padding:0.25rem 0.5rem;
   margin-right:1rem;
   position:relative;
+  background:var(--lightBlue);
+  transition: background 0.2s ease;
+  color:black;
+}
+
+.tag::before, .programCard .tag::before {
+  display:none;
 }
 .learnMore{
   position:absolute;
@@ -155,10 +164,19 @@ body{
   padding:0.5rem;
   top:100%;
   width:7rem;
-  box-shadow:grey 0px 0px 6px;
-
+  box-shadow:rgb(177, 177, 177) 0px 0px 4px;
+  display:none;
+  z-index:10;
 }
 .tag:hover .learnMore{
   opacity:1;
-  
+  display:block;
+}
+.programCard .proTag{
+  color:var(--black);
+
+}
+.infoHeader{
+  padding-top:2rem;
+  background:var(--periwinkle);
 }
