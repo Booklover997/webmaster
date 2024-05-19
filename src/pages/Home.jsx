@@ -11,7 +11,7 @@ export default function Home() {
       <Nav />
       <div className="heroContainer">
         <div className="hero">
-          <img src="https://cdn.glitch.global/2a9ebc67-d40c-4fbd-8f0d-de01dd8f3afd/Earth.svg?v=1714777355917"></img>
+          <img alt="Earth" src="https://cdn.glitch.global/2a9ebc67-d40c-4fbd-8f0d-de01dd8f3afd/Earth.svg?v=1714777355917"></img>
           <p className="heroText">
             <span>
               How can you can make a <br></br>
@@ -30,7 +30,7 @@ export default function Home() {
                 <span>
                   <div>Learn Now</div>{" "}
                   <img
-                    alt="earth"
+                    alt="arrow"
                     src="https://cdn.glitch.global/2a9ebc67-d40c-4fbd-8f0d-de01dd8f3afd/arrow.svg?v=1714799335617"
                   ></img>{" "}
                 </span>
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
       <div className="statement">
          <div className="right"><h1>Time is running Out!</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod nisl eros, vitae iaculis massa condimentum eget. Vestibulum felis massa, hendrerit vel tristique nec, hendrerit eu diam. Quisque placerat feugiat tincidunt. Sed commodo feugiat rutrum. Nunc eu orci at sapien pretium interdum. Cras feugiat eleifend ante, malesuada lacinia odio interdum sit amet. Praesent faucibus pulvinar ultrices. Praesent laoreet elit ultrices turpis maximus, quis accumsan ipsum laoreet. Sed at ligula lectus. Morbi in interdum eros. Vestibulum rhoncus ex malesuada ullamcorper venenatis.</p></div>
-        <div className="left"><img src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Slice%201%20(2).svg?v=1715020172749"></img></div>
+        <div className="left"><img alt="Clock on fire" src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Slice%201%20(2).svg?v=1715020172749"></img></div>
 
       </div>
 <div class="wave2">
@@ -104,7 +104,7 @@ export default function Home() {
             </div>
           </div>
           <div className="card">
-            <img src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/LightBulb.svg?v=1714956778576"></img>
+            <img src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/LightBulb.svg?v=1714956778576" alt="Lightbulb"></img>
             <p>Statistic Statistic Statistic Statistic</p>
             <div className="underline">
               <a>Learn More</a>
