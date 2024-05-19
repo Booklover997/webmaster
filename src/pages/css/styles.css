@@ -49,7 +49,7 @@ body{
 }
 .CTA{
   margin-left:auto;
-  background:(var());
+  background:var(--lightBlue);
   border:none;
   display:inline-block;
   white-space:nowrap;

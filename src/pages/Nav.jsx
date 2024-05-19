@@ -11,11 +11,11 @@ export function Nav() {
         <NavItem link="/" display="Home"></NavItem>
         <NavItem link="/reduction" display="Reduction"></NavItem>
         <NavItem link="/programs" display="Programs"></NavItem>
-        <NavItem link="#" display="Info">
+        <NavItem link="/programs" display="Info">
           <Dropdown>
-            <DropdownItem link="#">DropdownItem1</DropdownItem>
-            <DropdownItem link="#">DropdownItem2</DropdownItem>
-            <DropdownItem link="#">DropdownItem3</DropdownItem>
+            <DropdownItem link="/programs">DropdownItem1</DropdownItem>
+            <DropdownItem link="/programs">DropdownItem2</DropdownItem>
+            <DropdownItem link="/programs">DropdownItem3</DropdownItem>
           </Dropdown>
         </NavItem>
       </ul>

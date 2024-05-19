@@ -26,7 +26,7 @@ export default function Home() {
             </span>
             <br></br>
             <div className="CTAcontainer">
-              <button className="CTA">
+              <a href="/programs" className="CTA">
                 <span>
                   <div>Learn Now</div>{" "}
                   <img
@@ -34,7 +34,7 @@ export default function Home() {
                     src="https://cdn.glitch.global/2a9ebc67-d40c-4fbd-8f0d-de01dd8f3afd/arrow.svg?v=1714799335617"
                   ></img>{" "}
                 </span>
-              </button>
+              </a>
             </div>
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function Home() {
             ></img>
             <p>Statistic Statistic Statistic Statistic</p>
             <div className="underline">
-              <a>Learn More</a>
+              <a href="/programs">Learn More</a>
             </div>
           </div>
 
@@ -100,14 +100,14 @@ export default function Home() {
             ></img>
             <p>Statistic Statistic Statistic Statistic</p>
             <div className="underline">
-              <a>Learn More</a>
+              <a href="/programs">Learn More</a>
             </div>
           </div>
           <div className="card">
             <img src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/LightBulb.svg?v=1714956778576" alt="Lightbulb"></img>
             <p>Statistic Statistic Statistic Statistic</p>
             <div className="underline">
-              <a>Learn More</a>
+              <a href="/programs">Learn More</a>
             </div>
           </div>
         </div>

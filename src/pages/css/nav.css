@@ -101,7 +101,7 @@ nav ul a{
   padding-bottom:0.5rem;
   
 }
-a::before{
+nav a::before{
   background:var(--linkColor);
   transform:scaleX(0) scaleY(0.1);
   transition:transform 700ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
@@ -114,6 +114,6 @@ a::before{
   transform-origin: left bottom;
   display:block;
 }
-a:hover::before{
+nav a:hover::before{
   transform:scaleX(1) scaleY(0.1);
   }
