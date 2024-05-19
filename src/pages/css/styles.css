@@ -15,9 +15,6 @@
   --section2:white;
   --section3:var(--periwinkle);
   --section4:var(--lightGreen);
-
-
-  
 }
 
 
@@ -26,7 +23,7 @@
 }
 body{
   color:var(--black);
-  background:var(--periwinkle);
+  background:var(--lightBlue);
   overflow-x:hidden;
 }
 #earth{

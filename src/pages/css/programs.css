@@ -4,18 +4,17 @@
     --margin:10%;
 }
 
-body{
-  background:#d6d6d6ee;
-
-}
 .title{
   padding-top:1rem;
   font-family:var(--normal);
   padding-left:var(--margin);
 }
+.programCardContainer{
+  min-height: 100vh;
+  background-color: var(--lightGreen);
+}
 .programCards{
   display:grid;
-  min-height: 100vh;
   grid-template-columns: auto auto;  
   grid-gap: 1rem;
   padding-top:1rem ;

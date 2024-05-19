@@ -71,6 +71,7 @@ function List(props) {
   });
 
   return (
+    <div className="programCardContainer">
     <div className="programCards">
       {searchData.map((item) => (
         <div className="programCard" key={item.Heading}>
@@ -84,6 +85,7 @@ function List(props) {
           <a className="link" href={"programs/" + item.Heading}>Learn More</a>
         </div>
       ))}
+    </div>
     </div>
   );
 }

@@ -72,7 +72,7 @@ export default function Home() {
           </span>
           <FontAwesomeIcon icon={faQuoteRight} />
         </h1>
-        <h3> - Martin Luther King</h3>
+        <h3> - Martin Luther King Jr.</h3>
       </div>
 
       <div className="cardContainer">
