@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import { Dropdown, DropdownItem } from "../components/Dropdown.jsx";
 export function Nav() {
-  const [open, setOpen] = useState(false);
 
   return (
     <nav>
