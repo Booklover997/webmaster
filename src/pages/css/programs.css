@@ -90,7 +90,7 @@ body{
   height:85%;
 }
 
-.programCard .link{
+ .link{
   color:var(--darkBlue);
     font-family: var(--normal);
   font-size:20px;
@@ -98,9 +98,10 @@ body{
   position:relative;
     z-index:7;
   margin-top:0.5rem;
+  width: fit-content;
   
 }
-.programCard .link::before{
+ .link::before{
   background:var(--darkBlue);
   transform:scaleY(0.1);
   transition:transform 120ms cubic-bezier(0.23, 1, 0.32, 1) 0s, background 120ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
@@ -113,7 +114,7 @@ body{
   display:block;
 }
 
-.programCard .link:hover::before{
+ .link:hover::before{
   transform:scaleY(1);
 }
 .programCard .link:hover{
@@ -143,8 +144,9 @@ body{
   font-size:3rem;
 }
 .tag{
-  margin-top:1rem;
   border-radius:360px;
+  height:fit-content;
+  width: fit-content;
   display:inline-block;
   padding:0.25rem 0.5rem;
   margin-right:1rem;
@@ -157,6 +159,7 @@ body{
 .tag::before, .programCard .tag::before {
   display:none;
 }
+
 .learnMore{
   position:absolute;
   background:white;
@@ -179,4 +182,32 @@ body{
 .infoHeader{
   padding-top:2rem;
   background:var(--periwinkle);
+}
+.infoGrid{
+  display:grid;
+  grid-template-columns: 75% 25%;
+  grid-gap: 1px;
+  margin-top:3rem;
+}
+.infoInfo{
+  border-left:var(--bBlack);
+  border-left-style: solid;
+  display:flex;
+  flex-direction: column;
+}
+.infoInfo>*{
+  margin-left:1rem;
+  position: relative;
+}
+.infoInfo .tag{
+  margin-top:0.5rem;
+}
+.savingsHeader{
+  margin-top:1rem;
+}
+.linkHeader{
+  margin-top:1rem;
+}
+.infoInfo .link{
+  margin-top:0;
 }

@@ -11,7 +11,7 @@ export default function Home() {
       <Nav />
       <div className="heroContainer">
         <div className="hero">
-          <img alt="Earth" src="https://cdn.glitch.global/2a9ebc67-d40c-4fbd-8f0d-de01dd8f3afd/Earth.svg?v=1714777355917"></img>
+          <img alt="Earth" src="/Earth.svg"></img>
           <p className="heroText">
             <span>
               How can you can make a <br></br>

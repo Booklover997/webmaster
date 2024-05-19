@@ -1,21 +1,30 @@
 [{
     "Heading": "Devpulse",
   "tags":["automobile"],
-  "text":"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-}, {
+  "text":"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+   "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+  }, {
     "Heading": "Devpulse2",
   "tags":["house"],
   "text":"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-}, {
+  ,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+
+  }, {
     "Heading": "Devpulse3",
   "tags":["automobile", "cars"],
   "text":"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-}, {
+  ,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+
+  }, {
     "Heading": "Devpulse4",
   "tags":["automobile", "hello"],
   "text":"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-}, {
+  ,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+
+  }, {
     "Heading": "Devpulse5",
   "tags":["car", "plane"],
   "text":"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-}] 
+,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+
+  }] 

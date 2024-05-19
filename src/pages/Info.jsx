@@ -16,11 +16,22 @@ export default function Info() {
               <div className='infoHeader'><a href="../programs" className='back'> <img src = "/back.svg" alt="back"/>Back to Home</a>
       <h2 className='infoTitle'>{result.Heading}</h2>
       </div>
-        <div>
+        <div class="infoGrid">
+            <div class="infoText">
+          <p>{result.text}</p>
+          </div>
+          <div class="infoInfo">
+            <h3 class="tagHearder">Tags</h3>
           {result.tags.map((tag) => (
           <a href={`../programs?search=${tag}`} className="tag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
         ))}
-          <p>{result.text}</p>
+        <h3 className="savingsHeader">Savings</h3>
+        <a className="savings">$400</a>
+        <h3 className="linkHeader">Learn More</h3>
+        {result.learnMore.map((link) => (
+          <a href={link[1]} className="link" key={link}>{link[0]}</a>
+        ))}
+        </div>
         </div>
         </>
       ) : (

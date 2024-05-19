@@ -11,6 +11,10 @@
   --bebas : "Bebas Neue", sans-serif;
   --normal:'Avenir', sans-serif;
   --linkColor:var(--darkBlue);
+  --section1:var(--lightGreen);
+  --section2:white;
+  --section3:var(--periwinkle);
+  --section4:var(--lightGreen);
 
 
   
@@ -23,6 +27,12 @@ body{
   color:var(--black);
   background:var(--periwinkle);
   overflow-x:hidden;
+}
+#earth{
+  fill:red;
+}
+#water{
+  fill:red;
 }
 
 
@@ -40,7 +50,7 @@ body{
   
 }
 .heroContainer{
-    background:var(--periwinkle);
+    background:var(--section1);
   position:relative;
 
 }
@@ -89,26 +99,7 @@ body{
   font-weight:bold;
   
 }
-.custom-shape-divider-top-1715026171 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.custom-shape-divider-top-1715026171 svg {
-    position: relative;
-    display: block;
-    width: calc(155% + 1.3px);
-    height: 52px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1715026171 .shape-fill {
-    fill: var(--lightGreen);
-}
 .wave3 {
     position: absolute;
     top: 0;
@@ -127,7 +118,7 @@ body{
 }
 
 .wave3 .shape-fill {
-    fill: var(--lightGreen);
+    fill: var(--section3);
 }
 .wave1 {
     position: absolute;
@@ -146,7 +137,7 @@ body{
 }
 
 .wave1 .shape-fill {
-    fill: var(--periwinkle);
+    fill: var(--section1);
 }
 
 /** For tablet devices **/
@@ -168,7 +159,7 @@ body{
 
 /* Card code */
 .cardContainer{
-  background:var(--lightBlue);
+  background:var(--section4);
   padding:10rem 5% 20rem;
   position:relative;
 }
@@ -252,7 +243,7 @@ body{
 }
 
 .quoteContainer{
-  background:var(--lightGreen);
+  background:var(--section3);
   padding:15rem 20% 5rem;
 }
 
