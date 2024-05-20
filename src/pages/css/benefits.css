@@ -15,7 +15,7 @@ p{
     font-family: var(--normal);
 }
 .taxContainer .link, p{
-    font-size:1.4rem;
+    font-size:1.2rem;
     color:var(--bBlack);
     margin:0;
 }
