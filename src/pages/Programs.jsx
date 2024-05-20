@@ -44,6 +44,7 @@ export default function Programs() {
         </div>
       </div>
       <List input={search} />
+      <Footer/>
     </>
   );
 }
@@ -70,19 +71,21 @@ function List(props) {
   });
 
   return (
+    <div className="programCardContainer">
     <div className="programCards">
       {searchData.map((item) => (
         <div className="programCard" key={item.Heading}>
           <h1>{item.Heading}</h1>
           <p>
             Tags: {item.tags.map((tag) => (
-          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
+          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}s!</div></a>
         ))}
           </p>
           <p>{item.text}</p>
           <a className="link" href={"programs/" + item.Heading}>Learn More</a>
         </div>
       ))}
+    </div>
     </div>
   );
 }

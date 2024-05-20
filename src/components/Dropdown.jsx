@@ -17,5 +17,5 @@ export  function Dropdown(props) {
 }
 
 export function DropdownItem(props) {
-  return <NavLink LinkTo={props.link}>{props.children}</NavLink>;
+  return <NavLink to={props.link} >{props.display}</NavLink>;
 }

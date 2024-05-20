@@ -8,13 +8,15 @@ export function Nav() {
     <nav>
       <ul>
         <NavItem link="/" display="Home"></NavItem>
-        <NavItem link="/reduction" display="Reduction"></NavItem>
+        <NavItem link="/green" display="Going Green"></NavItem>
+        
+        <NavItem link="/benefits" display="Benefits"></NavItem>
         <NavItem link="/programs" display="Programs"></NavItem>
         <NavItem link="/programs" display="Info">
           <Dropdown>
-            <DropdownItem link="/programs">DropdownItem1</DropdownItem>
-            <DropdownItem link="/programs">DropdownItem2</DropdownItem>
-            <DropdownItem link="/programs">DropdownItem3</DropdownItem>
+            <DropdownItem link="/programs" display="Documentation"></DropdownItem>
+            <DropdownItem link="/programs" display="test1"></DropdownItem>
+            <DropdownItem link="/programs" display="test2"></DropdownItem>
           </Dropdown>
         </NavItem>
       </ul>
