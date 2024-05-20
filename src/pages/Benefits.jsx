@@ -15,6 +15,13 @@ export default function Benefits() {
 </div> 
     <div><a rel="noreferrer" href="https://www.irs.gov/pub/irs-pdf/f5695.pdf" target="_blank"><img src="/Document.svg" alt="5696 form"></img></a></div>
     </div>
+    <div class="requirementsContainer">
+      <h1>Requirements</h1>
+      <div class="bullet"><img class="bulletImg" src="1.svg"></img><h3>Must be an existing house that you live in</h3></div>
+      <div class="bullet"><img class="bulletImg" src="2.svg"></img><h3>You cannot claim more than you pay in taxes</h3></div>
+      <div class="bullet"><img class="bulletImg" src="3.svg"></img><h3>This is specifically related to United States properyd</h3></div>
+
+    </div>
     <Footer/>
     </>
   );

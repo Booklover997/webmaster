@@ -22,3 +22,13 @@ p{
 .taxContainer .link:hover{
     color:white;
 }
+.requirementsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.requirementsContainer>*{
+    font-family: var(--normal);
+}
+.bullet{
+    display:flex;
+}
