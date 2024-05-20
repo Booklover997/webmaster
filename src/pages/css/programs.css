@@ -11,7 +11,7 @@
 }
 .programCardContainer{
   min-height: 100vh;
-  background-color: var(--lightGreen);
+  background-color: var(--lightBlue);
 }
 .programCards{
   display:grid;

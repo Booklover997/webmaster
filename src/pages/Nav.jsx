@@ -8,7 +8,9 @@ export function Nav() {
     <nav>
       <ul>
         <NavItem link="/" display="Home"></NavItem>
-        <NavItem link="/reduction" display="Reduction"></NavItem>
+        <NavItem link="/green" display="Going Green"></NavItem>
+        
+        <NavItem link="/benefits" display="Benefits"></NavItem>
         <NavItem link="/programs" display="Programs"></NavItem>
         <NavItem link="/programs" display="Info">
           <Dropdown>

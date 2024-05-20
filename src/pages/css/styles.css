@@ -21,9 +21,10 @@
 *{
   margin:0;
 }
+
 body{
   color:var(--black);
-  background:var(--lightBlue);
+  background:var(--lightGreen);
   overflow-x:hidden;
 }
 #earth{

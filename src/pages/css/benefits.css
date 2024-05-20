@@ -1,0 +1,24 @@
+.taxTitle{
+    font-family: var(--normal);
+    text-align:left;
+}
+.taxContainer{
+    display:flex;
+    padding:1rem 20%;
+    gap:1rem;
+    background-color: var(--lightBlue);
+}
+.taxContainer img{
+    height:25rem;
+}
+p{
+    font-family: var(--normal);
+}
+.taxContainer .link, p{
+    font-size:16px;
+    color:var(--bBlack);
+    margin:0;
+}
+.taxContainer .link:hover{
+    color:white;
+}
