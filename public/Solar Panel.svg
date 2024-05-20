@@ -1,19 +1,19 @@
 <svg width="386" height="160" viewBox="0 0 386 160" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11.4739 9.00005L1.47363 9L1.50827 0.49982L11.4739 9.00005Z" fill="#8BFFC0"/>
-<path d="M374.16 116.292L383.474 116.292L383.474 124.5L374.16 116.292Z" fill="#A3FFCD"/>
-<path d="M1.47363 9H269.474L383.474 124.5H114.974L1.47363 9Z" fill="#A3FFCD"/>
+<path d="M373.686 116.292L383 116.292L383 124.5L373.686 116.292Z" fill="#A3FFCD"/>
+<path d="M1.47363 9H269.474L383 124.5H114.974L1.47363 9Z" fill="#A3FFCD"/>
 <path d="M1.47363 9L115.994 12.5L114.974 124.5L1.47363 9Z" fill="#75FFB5"/>
 <path d="M1.47363 0.5L268.473 0L382.473 116.5H115.146L1.47363 0.5Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M110.473 111.8L115.773 116.399H381.473L376.203 111.8H110.473Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M74.4736 75.1997L79.8327 79.7995H348.474L343.146 75.1997H74.4736Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M113 112L118.3 116.6H384L378.731 112H113Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M74.4736 75.1997L79.7843 79.7995H346L340.72 75.1997H74.4736Z" fill="black"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M38.4736 38.5999L43.774 43.1997H309.474L304.204 38.5999H38.4736Z" fill="black"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.47363 0L7.774 4.5998H273.474L268.204 0H2.47363Z" fill="black"/>
 <path d="M6.47363 0.25H0.973633L114.974 116.5H120.474L6.47363 0.25Z" fill="black"/>
 <path d="M58.9966 0H53.4736L168.603 116H173.474L58.9966 0Z" fill="black"/>
 <path d="M111.474 0.25H105.974L220.474 116.5H225.474L111.474 0.25Z" fill="black"/>
-<path d="M163.974 0.25H158.474L273.124 116.75H277.974L163.974 0.25Z" fill="black"/>
-<path d="M216.474 0.25H210.974L325.624 116.75H330.474L216.474 0.25Z" fill="black"/>
-<path d="M268.974 0.25H263.474L378.124 116.75H382.974L268.974 0.25Z" fill="black"/>
+<path d="M163.974 0.25H158.474L273 116.5H278L163.974 0.25Z" fill="black"/>
+<path d="M216.5 0H211L325.65 116.5H330.5L216.5 0Z" fill="black"/>
+<path d="M268.974 0.25H263.474L378 116.5H383L268.974 0.25Z" fill="black"/>
 <rect x="232.474" y="124" width="21" height="27" fill="#A3FFCD"/>
 <rect x="193.474" y="151" width="117" height="9" fill="#A3FFCD"/>
 <rect x="197.474" y="124" width="35" height="27" fill="#8BFFC0"/>
