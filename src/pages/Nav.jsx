@@ -12,12 +12,7 @@ export function Nav() {
         
         <NavItem link="/benefits" display="Benefits"></NavItem>
         <NavItem link="/programs" display="Programs"></NavItem>
-        <NavItem link="/programs" display="Info">
-          <Dropdown>
-            <DropdownItem link="/programs" display="Documentation"></DropdownItem>
-            <DropdownItem link="/programs" display="test1"></DropdownItem>
-            <DropdownItem link="/programs" display="test2"></DropdownItem>
-          </Dropdown>
+        <NavItem link="/Documentation" display="Info">
         </NavItem>
       </ul>
     </nav>

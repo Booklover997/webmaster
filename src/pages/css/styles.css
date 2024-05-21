@@ -21,17 +21,27 @@
 *{
   margin:0;
 }
-
+.center{
+  max-width: 1000px;
+  margin:0 auto;
+}
 body{
   color:var(--black);
   background:var(--lightGreen);
   overflow-x:hidden;
+}
+.mar{
+  margin:2rem 0;
+  display: block;
 }
 #earth{
   fill:red;
 }
 #water{
   fill:red;
+}
+h1{
+  font-family: var(--normal);
 }
 
 

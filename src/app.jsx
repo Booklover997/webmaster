@@ -5,7 +5,7 @@ import Benefits from './pages/Benefits';
 import Programs from './pages/Programs';
 import Info from './pages/Info';
 import GoingGreen from './pages/GoingGreen';
-
+import Documentation from './pages/Documentation';
 export default function App() {
   return (
     <BrowserRouter>
@@ -13,6 +13,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="benefits" element={<Benefits />} />
         <Route path="green" element={<GoingGreen />} />
+        <Route path="documentation" element={<Documentation />} />
         <Route path="programs">
           <Route path="" element={<Programs />} />
           <Route path=":programHeader" element={<Info />} />
