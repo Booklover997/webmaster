@@ -23,7 +23,7 @@
 }
 .center{
   max-width: 1000px;
-  margin:0 auto;
+  margin:inherit auto;
 }
 body{
   color:var(--black);

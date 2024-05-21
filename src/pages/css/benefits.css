@@ -4,7 +4,7 @@
 }
 .taxContainer{
     display:flex;
-    padding:1rem 20%;
+    padding:1rem 0;
     gap:1rem;
     background-color: var(--lightBlue);
 }

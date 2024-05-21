@@ -18,6 +18,9 @@ export default function Benefits() {
         <h1>Copyright Checklist</h1>
         <p>All images created using Figma</p>
         <a href="#">Link to Copyright Checklist</a>
+        <span class="thin mar" ></span>
+        <h1>Depencdencies</h1>
+        <p>Fonts imported from Google Fonts</p>
         </div>
     <Footer/>
     </>
