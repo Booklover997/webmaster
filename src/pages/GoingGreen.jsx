@@ -19,37 +19,43 @@ export default function GoingGreen() {
       </div>
       <div class="bento">
         <div class="bentoTitle"><div>Go Green in 6 Easy Steps</div></div>
-        <div class="mechanicalBento"><div><img src="gears.svg"></img><p>Make swaps to existing mechanical systems</p></div></div>
-        <div class="waterBento"><div><img src="Faucet.svg"></img><p>Improve Water Heating Systems</p></div></div>
-        <div class="foamBento"><div><img src="Spray.svg"></img><p>Properly Insulate</p></div></div>
-        <div class="windowBento"><div><img src="Window.svg"></img><p>Energy efficient windows to prevent heatloss and reduce the need for air-conditioning</p></div></div>
-        <div class="lightBulbBento"><div><img src="LightBulb.svg"></img><p>Use energy efficient light bulbs</p></div></div>
-        <div class="solarBento"><div><img src="Solar Panel.svg"></img><p>After cutting energy useage renewable energy systems becomes worth it</p></div></div>
+        <a href="#mech"class="mechanicalBento"><div><img src="gears.svg"></img><p>Make swaps to existing mechanical systems</p></div></a>
+        <a href="#water" class="waterBento"><div><img src="Faucet.svg"></img><p>Improve Water Heating Systems</p></div></a>
+        <a href="#foam" class="foamBento"><div><img src="Spray.svg"></img><p>Properly Insulate</p></div></a>
+        <a href="#window" class="windowBento"><div><img src="Window.svg"></img><p>Energy efficient windows to prevent heatloss and reduce the need for air-conditioning</p></div></a>
+        <a href="#lightBulb" class="lightBulbBento"><div><img src="LightBulb.svg"></img><p>Use energy efficient light bulbs</p></div></a>
+        <a href="#solar" class="solarBento"><div><img src="Solar Panel.svg"></img><p>After cutting energy useage renewable energy systems becomes worth it</p></div></a>
       </div>
 
       <div class="flex">
         <div class="bullets">
-        <Bullet srcbullet="1.svg" src="gears.svg" alt="Groups of gears"></Bullet>
-        <Bullet srcbullet="Green2.svg" src="Faucet.svg" alt="Faucet"></Bullet>
-        <Bullet srcbullet="Green3.svg" src="spray.svg" alt="Foam spray"></Bullet>
-        <Bullet srcbullet="Green4.svg" src="Window.svg" alt="Window"></Bullet>
-        <Bullet srcbullet="Green5.svg" src="LightBulb.svg" alt="Lightbulb"></Bullet>
-        <Bullet srcbullet="Green6.svg" src="Solar Panel.svg" alt="Solar Panel"></Bullet>
+        <Bullet id="mech" srcbullet="Green1.svg" src="gears.svg" alt="Groups of gears"><h1>Mechanical Parts</h1><p>The furnace or boiler is often the least efficient energy consumer in older houses. Replacing window air conditioning with a central AC unit is another immediate energy saver. Lastly, solar water heating is an excellent alternative to gas or electric heaters. Making these swaps/upgrades to your existing mechanical systems can immediately cut down your energy consumption.</p></Bullet>
+        <span></span>
+        <Bullet id="water" srcbullet="Green2.svg" src="Faucet.svg" alt="Faucet"><h1>Mechanical Parts</h1><p>The furnace or boiler is often the least efficient energy consumer in older houses. Replacing window air conditioning with a central AC unit is another immediate energy saver. Lastly, solar water heating is an excellent alternative to gas or electric heaters. Making these swaps/upgrades to your existing mechanical systems can immediately cut down your energy consumption.</p></Bullet>
+        <span></span>
+
+        <Bullet id="foam" srcbullet="Green3.svg" src="spray.svg" alt="Foam spray"><h1>Mechanical Parts</h1><p>The furnace or boiler is often the least efficient energy consumer in older houses. Replacing window air conditioning with a central AC unit is another immediate energy saver. Lastly, solar water heating is an excellent alternative to gas or electric heaters. Making these swaps/upgrades to your existing mechanical systems can immediately cut down your energy consumption.</p></Bullet>
+        <span></span>
+
+        <Bullet id="window" srcbullet="Green4.svg" src="Window.svg" alt="Window"><h1>Mechanical Parts</h1><p>The furnace or boiler is often the least efficient energy consumer in older houses. Replacing window air conditioning with a central AC unit is another immediate energy saver. Lastly, solar water heating is an excellent alternative to gas or electric heaters. Making these swaps/upgrades to your existing mechanical systems can immediately cut down your energy consumption.</p></Bullet>
+        <span></span>
+
+        <Bullet id="lightBulb" srcbullet="Green5.svg" src="LightBulb.svg" alt="Lightbulb"><h1>Mechanical Parts</h1><p>The furnace or boiler is often the least efficient energy consumer in older houses. Replacing window air conditioning with a central AC unit is another immediate energy saver. Lastly, solar water heating is an excellent alternative to gas or electric heaters. Making these swaps/upgrades to your existing mechanical systems can immediately cut down your energy consumption.</p></Bullet>
+        <span></span>
+
+        <Bullet id="solar" srcbullet="Green6.svg" src="Solar Panel.svg" alt="Solar Panel"><h1>Mechanical Parts</h1><p>The furnace or boiler is often the least efficient energy consumer in older houses. Replacing window air conditioning with a central AC unit is another immediate energy saver. Lastly, solar water heating is an excellent alternative to gas or electric heaters. Making these swaps/upgrades to your existing mechanical systems can immediately cut down your energy consumption.</p></Bullet>
         </div>
       </div>
-
-      <img src="/Faucet.svg" alt="Faucet"></img>
-      <img src="/gears.svg" alt="Gears"></img>
-      <img src="/Window.svg" alt="window"></img>
       <Footer />
     </>
   );
 }
 function Bullet(props){
   return (
-    <div class="bulletGreen">
+    <div id={props.id} class="bulletGreen">
     <img src={props.srcbullet} class="bulletImg"></img>
     <div className="content"><img src={props.src} alt={props.alt}></img>
+    {props.children}
     </div>
   </div>
   );

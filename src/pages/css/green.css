@@ -44,14 +44,14 @@
     background:var(--bentoBackground);
     border-radius:2rem;
 }
-.bento div{
+.bento a{
     position: relative;
     display: flex;
     justify-content: center;
 
     align-items: center;
 }
-.bento div>*{
+.bento a>*{
     position: relative;
     display: flex;
     justify-content: center;
@@ -61,11 +61,11 @@
     
 
 }
-.bento div div p{
+.bento a div p{
     font-size:1.3rem;
     text-align: center;
 }
-.bento div div>img{
+.bento a div>img{
     max-height:40%;
     max-width:40%;
 }
@@ -100,9 +100,13 @@
     flex-direction: row;
 
 }
+
 .bulletGreen{
     display:flex;
     width:100%;
+    padding:2rem 0;
+    scroll-margin-top: 4rem; /* Adjust this value according to your navbar height */
+
 }
 .bulletGreen .bulletImg{
     height:3rem;
@@ -110,4 +114,18 @@
 }
 .bulletGreen .content img{
     height:7rem;
+}
+
+.flex div span{
+    width:100%;
+    height:0.5rem;
+    background-color:var(--bBlack);
+    border-radius:25px;
+}
+.content h1{
+    font: size 2.5rem;
+    font-family: var(--normal);
+}
+.content p{
+    font-size:1.6rem;
 }
