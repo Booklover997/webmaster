@@ -2,13 +2,18 @@
     --bentoBackground:var(--periwinkle);
 }
 .flex{
-    display:flex
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width:100%;
+    margin:0 auto;
 }
 .introContainer .flex div h1{
     font-family:var(--normal);
 }
 .introContainer{
-    padding:1rem 20%;
+    padding:4rem 20%;
     position: relative;
 }
 .introContainer img{
@@ -20,46 +25,55 @@
 .bento{
     display:grid;
     width:100%;
-    max-width:1000px;
+    max-width:700px;
     position:relative;
+
     margin-left: auto;
     margin-right: auto;
-    gap:1vw;
+    gap:0.5vw;
     padding:1vw;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows:1fr min-content;
     grid-template-areas:
     "title title title title mech mech"
     "water water window window mech mech"
-    "foam foam window window light light"
+    "light light window window foam foam"
     "solar solar solar solar solar solar ";
 }
 .bento>*{
     background:var(--bentoBackground);
     border-radius:2rem;
+}
+.bento div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.bento div>*{
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding:0.5rem;
+    padding:0.25rem;
     align-items: center;
     
 
 }
-.bento div p{
-    font-size:1.8rem;
+.bento div div p{
+    font-size:1.3rem;
     text-align: center;
 }
-.bento div>img{
-    max-height:60%;
-    max-width:60%;
+.bento div div>img{
+    max-height:40%;
+    max-width:40%;
 }
 .bentoTitle{
     grid-area:title;
     font-family: var(--normal);
-    font-size:3rem;
+    font-size:2rem;
     font-weight: bold;
-
 
 }
 .mechanicalBento{
@@ -81,6 +95,19 @@
 }
 .solarBento{
     grid-area:solar;
+}
+.solarBento div{
     flex-direction: row;
 
+}
+.bulletGreen{
+    display:flex;
+    width:100%;
+}
+.bulletGreen .bulletImg{
+    height:3rem;
+
+}
+.bulletGreen .content img{
+    height:7rem;
 }
