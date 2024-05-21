@@ -9,6 +9,8 @@ export default function Home() {
   return (
     <>
       <Nav />
+      <div class="pageContent">
+
       <div className="heroContainer">
         <div className="hero">
           <img alt="Earth" src="/Earth.svg"></img>
@@ -113,6 +115,7 @@ export default function Home() {
         </div>
       </div>
     <Footer/>
+    </div>
     </>
   );
 }

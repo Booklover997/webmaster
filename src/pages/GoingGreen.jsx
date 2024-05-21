@@ -7,6 +7,7 @@ export default function GoingGreen() {
   return (
     <>
       <Nav />
+      <div class="pageContent">
       <div className="introContainer">
         <div class="flex">
           <div>
@@ -47,6 +48,7 @@ export default function GoingGreen() {
         </div>
       </div>
       <Footer />
+      </div>
     </>
   );
 }

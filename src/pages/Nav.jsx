@@ -3,19 +3,39 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import { Dropdown, DropdownItem } from "../components/Dropdown.jsx";
 export function Nav() {
+  //mobile code
+  const [showMenu, setShowMenu] = useState(false);
+  function toggleMenu(){
+    setShowMenu(!showMenu);
+  }
 
+  function closeMenuOnMobile(){
+      if(window.innerWidth<=1200)
+        {
+          setShowMenu(false);
+        }
+  }
   return (
     <nav>
-      <ul>
-        <NavItem link="/" display="Home"></NavItem>
-        <NavItem link="/green" display="Going Green"></NavItem>
+      <ul class={showMenu ? "show" :""}>
+        <NavItem onClick={closeMenuOnMobile} link="/" display="Home"></NavItem>
+        <NavItem onClick={closeMenuOnMobile} link="/green" display="Going Green"></NavItem>
         
-        <NavItem link="/benefits" display="Benefits"></NavItem>
-        <NavItem link="/programs" display="Programs"></NavItem>
-        <NavItem link="/Documentation" display="Info">
+        <NavItem onClick={closeMenuOnMobile} link="/benefits" display="Benefits"></NavItem>
+        <NavItem onClick={closeMenuOnMobile} link="/programs" display="Programs"></NavItem>
+        <NavItem onClick={closeMenuOnMobile} link="/Documentation" display="Info">
         </NavItem>
       </ul>
+      <div class="menu">
+        <img onClick={toggleMenu} src="Hamburger.svg" alt="Hamburger" class={showMenu ? "none" :""}></img>
+        <img onClick={toggleMenu} src="X.svg" alt="X" class={showMenu ? "" :"none"}></img>
+      </div>
+      {showMenu && (
+            <style>{`.pageContent { filter:blur(3px); overflow-y:hidden; }`}</style>
+          )}
     </nav>
+    
+
   );
 }
 
@@ -66,7 +86,7 @@ function NavItem(props) {
 
   return (
     <li>
-      <NavLink to={props.link} onMouseEnter={() => setExpand(!expanded)} onMouseLeave={() => setExpand(!expanded)}>
+      <NavLink  to={props.link} onMouseEnter={() => setExpand(!expanded)} onMouseLeave={() => setExpand(!expanded)}>
         {props.display}
       </NavLink>
       {expanded &&props.children&& (

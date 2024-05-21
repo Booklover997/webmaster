@@ -7,6 +7,8 @@ export default function Benefits() {
   return (
     <>
       <Nav />
+      <div class="pageContent">
+
       <div className="center">
         <h1> Sources</h1>
         <p>Source1</p>
@@ -23,6 +25,7 @@ export default function Benefits() {
         <p>Fonts imported from Google Fonts</p>
         </div>
     <Footer/>
+    </div>
     </>
   );
 }

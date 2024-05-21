@@ -18,6 +18,8 @@ export default function Programs() {
   return (
     <>
       <Nav />
+      <div class="pageContent">
+
       <h1 class="title">Programs</h1>
       <div className="searchContainer">
 
@@ -45,6 +47,7 @@ export default function Programs() {
       </div>
       <List input={search} />
       <Footer/>
+      </div>
     </>
   );
 }

@@ -117,3 +117,52 @@ nav a::before{
 nav a:hover::before{
   transform:scaleX(1) scaleY(0.1);
   }
+  .none{
+    display:none;
+  }
+  .menu img{
+    max-height: 3rem;
+    margin:0.5rem 4rem;
+    float: right;
+    display: none;
+  }
+@media (max-width:1250px) {
+  nav ul{
+    position:absolute;
+    flex-direction: column;
+    right:0;
+    top:4rem;
+    margin:0;
+    height: 100vh;
+    background-color: white;
+    padding-left: 1rem;
+    width:0;
+    transition: width 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+  nav{
+    z-index:10000000;
+  }
+  nav ul a{
+    margin:0;
+  }
+  nav ul li{
+    margin:1rem 0;
+    white-space: nowrap;
+    display: inline-block;
+  }
+  nav{
+    justify-content: right;
+  }
+  .show{
+    width:50%;
+  }
+  .menu img{
+    display: inline-block;
+  }
+  .menu .none{
+    display:none;
+  }
+}

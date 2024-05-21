@@ -10,6 +10,8 @@ export default function Info() {
   return (
     <>
     <Nav></Nav>
+    <div class="pageContent">
+
     <div class="body">
       {result ? (
         <>
@@ -39,6 +41,7 @@ export default function Info() {
       )}
     </div>
     <Footer></Footer>
+    </div>
     </>
   );
 };
