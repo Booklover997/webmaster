@@ -21,8 +21,16 @@ export default function Benefits() {
         <p>All images created using Figma</p>
         <a href="#">Link to Copyright Checklist</a>
         <span class="thin mar" ></span>
-        <h1>Depencdencies</h1>
+        <h1>Dependencies</h1>
         <p>Fonts imported from Google Fonts</p>
+        <p>react-router-dom</p>
+        <p>typewriter-effect</p>
+        <p>React.js</p>
+        <p>NPM</p>
+        <p>react-helmet-async</p>
+
+
+
         </div>
     <Footer/>
     </div>

@@ -9,7 +9,7 @@ export default function GoingGreen() {
       <Nav />
       <div class="pageContent">
       <div className="introContainer">
-        <div class="flex">
+        <div class="flex center">
           <div>
             <h1>What Is Green Energy?</h1>
             <p>Green energy is a type of renewable energy that generates green power without causing any harm to the environment.Green Energy is generated through:Wind energySolar energyBiomass energGeothermal energyBiogas energyLow-impact hydropower energyNegative effects of fossil fuels on the environment Burning fossil fuels releases nitrogen oxides into the atmosphere which can lead to smog and acid rain.</p>

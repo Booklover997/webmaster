@@ -75,7 +75,7 @@ function List(props) {
 
   return (
     <div className="programCardContainer">
-    <div className="programCards">
+    <div className="programCards center">
       {searchData.map((item) => (
         <div className="programCard" key={item.Heading}>
           <h1>{item.Heading}</h1>

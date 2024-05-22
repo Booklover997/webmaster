@@ -31,7 +31,7 @@ export function Nav() {
         <img onClick={toggleMenu} src="X.svg" alt="X" class={showMenu ? "" :"none"}></img>
       </div>
       {showMenu && (
-            <style>{`.pageContent { filter:blur(3px); overflow-y:hidden; }`}</style>
+            <style>{`@media (max-width:1250px) {.pageContent { filter:blur(3px); overflow-y:hidden; }}`}</style>
           )}
     </nav>
     

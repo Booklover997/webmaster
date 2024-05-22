@@ -17,13 +17,18 @@
   display:grid;
   grid-template-columns: auto auto;  
   grid-gap: 1rem;
+  max-width: 1000px;
   padding-top:1rem ;
-  padding-left:var(--margin);
-  padding-right:var(--margin);
   flex-wrap:wrap;
   justify-content:space-around;
+  padding-bottom: 2rem;
 }
-
+@media (max-width:1050px){
+  .programCards{
+    grid-template-columns: auto;
+    max-width:500px;
+  }
+}
 .programCard{
   background: #FAFAFA;
   border-radius:0.25rem;

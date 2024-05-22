@@ -58,3 +58,33 @@ p{
     flex-direction: column;
     justify-content: center;
 }
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width:100%;
+    margin:0 auto;
+}
+@media (max-width:1000px){
+    .taxContainer{
+        align-items:center;
+        flex-direction: column;
+    }
+    .center, .taxContainer a img, .flex{
+        width: 700px;
+    }
+    .taxContainer a img, .center, .flex{
+            max-width:100%;
+    }
+    .bullets{
+        gap:4rem;
+    }
+
+}
+@media (max-width:700px){
+    .center, .taxContainer a img, .flex{
+        width:400px;
+    }
+}

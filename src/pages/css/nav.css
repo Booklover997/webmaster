@@ -9,6 +9,7 @@ body{
 
 #root{
   width:100%;
+  overflow:clip;
 }
 nav{
   display:flex;
@@ -80,7 +81,7 @@ nav ul a{
 .footer{
   display:flex;
   background:white;
-  padding:1rem 20%;
+  max-width: 100%;
   justify-content:space-around;
 }
 .footer div ul{
@@ -122,9 +123,12 @@ nav a:hover::before{
   }
   .menu img{
     max-height: 3rem;
-    margin:0.5rem 4rem;
+    margin:0.5rem 1rem;
     float: right;
     display: none;
+  }
+  .pageContent{
+    filter:none;
   }
 @media (max-width:1250px) {
   nav ul{
@@ -134,10 +138,11 @@ nav a:hover::before{
     top:4rem;
     margin:0;
     height: 100vh;
+    min-width:15rem;
     background-color: white;
     padding-left: 1rem;
-    width:0;
-    transition: width 0.2s ease-in-out;
+    transform: translateX(100%);
+    transition: transform 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
     white-space: nowrap;
@@ -157,7 +162,7 @@ nav a:hover::before{
     justify-content: right;
   }
   .show{
-    width:50%;
+    transform:none;
   }
   .menu img{
     display: inline-block;
