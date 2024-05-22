@@ -28,7 +28,7 @@ export default function Home() {
             </span>
             <br></br>
             <div className="CTAcontainer">
-              <a href="/programs" className="CTA">
+              <a href="/green" className="CTA">
                 <span>
                   <div>Learn Now</div>{" "}
                   <img
