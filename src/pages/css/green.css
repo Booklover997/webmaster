@@ -10,6 +10,7 @@
 }
 .introContainer{
     position: relative;
+    padding:3rem 0;
 }
 .introContainer img{
     height:10rem;

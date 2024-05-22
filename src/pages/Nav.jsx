@@ -31,7 +31,7 @@ export function Nav() {
         <img onClick={toggleMenu} src="X.svg" alt="X" class={showMenu ? "" :"none"}></img>
       </div>
       {showMenu && (
-            <style>{`@media (max-width:1250px) {.pageContent { filter:blur(3px); overflow-y:hidden; }}`}</style>
+            <style>{`@media (max-width:1250px) {.pageContent { filter:blur(3px); overflow-y:clip; }}`}</style>
           )}
     </nav>
     
@@ -53,21 +53,21 @@ export function Footer() {
         <ul>
           <li>Learn More</li>
           <li>
-            <NavLink link="#">Programs</NavLink>
+            <NavLink link="programs">Programs</NavLink>
           </li>
           <li>
-            <NavLink link="#">Lifestyle</NavLink>
+            <NavLink link="green">Go Green</NavLink>
           </li>
           <li>
-            <NavLink link="#">Documentation</NavLink>
+            <NavLink link="Benefits">Benefits</NavLink>
           </li>
         </ul>
       </div>
       <div class="column 3">
         <ul>
-          <li>Header</li>
+          <li>Further Exploration</li>
           <li>
-            <NavLink link="#">Choice 1</NavLink>
+            <NavLink link="#">EPA</NavLink>
           </li>
           <li>
             <NavLink link="#">Choice 2</NavLink>

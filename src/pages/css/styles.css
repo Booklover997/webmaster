@@ -334,3 +334,15 @@ h1{
     height: 160px;
 }
 
+@media (max-width:1000px){
+  .quote .text{
+    line-height: 1rem;
+    font-size:28px;
+  }
+  .cardFlex{
+    flex-direction: column;
+  }
+  .card{
+    width:100%;
+  }
+}
