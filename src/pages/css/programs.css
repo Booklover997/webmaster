@@ -48,7 +48,8 @@
   padding-right:var(--margin);
 }
 .search{
-
+  width:100%;
+  justify-content: center;
   border-radius:5rem;
   background:white;
   height:var(--height);

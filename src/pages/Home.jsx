@@ -108,7 +108,7 @@ export default function Home() {
             </div>
           </div>
           <div className="card">
-            <img src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/LightBulb.svg?v=1714956778576" alt="Lightbulb"></img>
+            <img src="LightBulb.svg" alt="Lightbulb"></img>
             <p>Through tax credits, the cost of energy efficient home upgrades could lower by up to 30%</p>
             <div className="underline">
               <a href="/benefits">Learn More</a>

@@ -33,17 +33,6 @@ export default function Programs() {
             onChange={handleInputChange} // Call handleInputChange on change
           ></input>
         </div>
-        <div className="icons">
-          <div className="icon">
-            <img alt= "Home Based" src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Group%202%20(1).svg?v=1715129174004"></img>
-          </div>
-                    <div alt="carBased" className="icon">
-            <img alt="Car Based" src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Group%202%20(1).svg?v=1715129174004"></img>
-          </div>
-                    <div className="icon">
-            <img alt="Green" src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Group%202%20(1).svg?v=1715129174004"></img>
-          </div>
-        </div>
       </div>
       <List input={search} />
       <Footer/>
