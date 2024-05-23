@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
       <div className="statement">
-         <div className="right"><h1>Time is running Out!</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod nisl eros, vitae iaculis massa condimentum eget. Vestibulum felis massa, hendrerit vel tristique nec, hendrerit eu diam. Quisque placerat feugiat tincidunt. Sed commodo feugiat rutrum. Nunc eu orci at sapien pretium interdum. Cras feugiat eleifend ante, malesuada lacinia odio interdum sit amet. Praesent faucibus pulvinar ultrices. Praesent laoreet elit ultrices turpis maximus, quis accumsan ipsum laoreet. Sed at ligula lectus. Morbi in interdum eros. Vestibulum rhoncus ex malesuada ullamcorper venenatis.</p></div>
+         <div className="right"><h1>Time is running Out!</h1><p>Renewable energy produces no greenhouse gas emissions, which reduces harmful environmental impacts and resists the consequences of climate change. Combustible fuels such as Coal, Petroleum oil, and natural gas result in greater air and water pollution than green energy. We collectively have to work to reach the U.S. climate goal of 100% carbon free electricity by 2035, and net zero greenhouse gas emissions by 2050.</p></div>
         <div className="left"><img alt="Clock on fire" src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Slice%201%20(2).svg?v=1715020172749"></img></div>
 
       </div>
@@ -89,7 +89,7 @@ export default function Home() {
               src="https://cdn.glitch.global/2a9ebc67-d40c-4fbd-8f0d-de01dd8f3afd/EnergySlice.svg?v=1714860951226"
               alt="Energy"
             ></img>
-            <p>Statistic Statistic Statistic Statistic</p>
+            <p>Through renewable programs, power plants can reach efficiencies of up to 90%</p>
             <div className="underline">
               <a href="/programs">Learn More</a>
             </div>
@@ -100,16 +100,16 @@ export default function Home() {
               src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/Vector%20(1).svg?v=1715206045012"
               alt="Leaf"
             ></img>
-            <p>Statistic Statistic Statistic Statistic</p>
+            <p>Approximately 17.6 million Americans are exposed to toxic air pollution daily</p>
             <div className="underline">
-              <a href="/programs">Learn More</a>
+              <a href="/green">Learn More</a>
             </div>
           </div>
           <div className="card">
             <img src="https://cdn.glitch.global/9a9dd750-ad57-43b6-af2a-df259480aa6d/LightBulb.svg?v=1714956778576" alt="Lightbulb"></img>
-            <p>Statistic Statistic Statistic Statistic</p>
+            <p>Through tax credits, the cost of energy efficient home upgrades could lower by up to 30%</p>
             <div className="underline">
-              <a href="/programs">Learn More</a>
+              <a href="/benefits">Learn More</a>
             </div>
           </div>
         </div>

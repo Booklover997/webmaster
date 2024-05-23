@@ -12,7 +12,7 @@ export default function GoingGreen() {
         <div class="flex center">
           <div>
             <h1>What Is Green Energy?</h1>
-            <p>Green energy is a type of renewable energy that generates green power without causing any harm to the environment.Green Energy is generated through:Wind energySolar energyBiomass energGeothermal energyBiogas energyLow-impact hydropower energyNegative effects of fossil fuels on the environment Burning fossil fuels releases nitrogen oxides into the atmosphere which can lead to smog and acid rain.</p>
+            <p>Green Energy, a type of renewable energy, is energy that has no negative effects on the environment, and is constantly and naturally replenished. Green energy can be attained through different sources such as solar power and wind power. The rate at which these types of energy are harnessed and stored are significantly larger than the rate at which humans consume this energy and generate electricity. This is less harmful to the environment than the burning of fossil fuels, as there are no greenhouse gas emissions that lead to air and water pollution.</p>
           </div>
 
           <img src="Green Energy.svg"></img>
