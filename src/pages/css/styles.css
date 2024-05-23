@@ -357,6 +357,9 @@ h1{
     top:0;
 
   }
+  .card p{
+    font-size:1rem;
+  }
   .card:nth-child(2){
     top:0;
     margin-top:1rem;
@@ -376,5 +379,20 @@ h1{
   }
   .CTAcontainer .img{
     width:20%;
+  }
+  .right p{
+    font-size:1.4rem;
+  }
+  .statement{
+    padding-top:10rem;
+  }
+  .right{
+    padding:0;
+    width:100%;
+  }
+  
+  .statement{
+    flex-direction: column-reverse;
+
   }
 }
