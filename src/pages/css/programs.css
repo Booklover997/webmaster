@@ -26,7 +26,7 @@
 @media (max-width:1050px){
   .programCards{
     grid-template-columns: auto;
-    max-width:500px;
+    max-width:100%;
   }
 }
 .programCard{
