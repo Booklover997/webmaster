@@ -17,6 +17,7 @@ export function Nav() {
   }
   return (
     <nav>
+      <img class="logo" src="Logo.svg"></img>
       <ul class={showMenu ? "show" :""}>
         <NavItem onClick={closeMenuOnMobile} link="/" display="Home"></NavItem>
         <NavItem onClick={closeMenuOnMobile} link="/green" display="Going Green"></NavItem>
@@ -45,8 +46,8 @@ export function Footer() {
       <div class="column 1">
         <ul>
           <li>Creators</li>
-          <li>Your Mom</li>
-          <li>Your Dad</li>
+          <li>Rishi S.</li>
+          <li>Karan K.</li>
         </ul>
       </div>
       <div class="column 2">

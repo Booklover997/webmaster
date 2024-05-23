@@ -16,12 +16,12 @@ export default function Benefits() {
     <p>By investing in renewable technologies for your home you are able to qualify for federal tax credits such as the eneergy efficiency home improvement credit and the residential clean energy credit. Some examples of qualifying technologies are wind, solar, geothermal, fuel cells, and battery storage. These credits available through 2032 allower homeowners to claim up to $3,200 in tax rebates annually. These credits can be claimed from the IRS by using <a href="https://www.irs.gov/pub/irs-pdf/f5695.pdf" class="link">IRS Form 5965</a> 
 </p>
 </div>
-<a rel="noreferrer" href="https://www.irs.gov/pub/irs-pdf/f5695.pdf" target="_blank"><img src="/Document.svg" alt="5696 form"></img></a>
+<a rel="noreferrer" href="https://www.irs.gov/pub/irs-pdf/f5695.pdf" target="_blank"><img loading="eager" src="/Document.svg" alt="5696 form"></img></a>
 
 </div> 
 
     </div>
-    <div class="requirementsContainer">
+    <div class="requirementsContainer center">
       <h1>Requirements</h1>
       <div class="bullets">
       <div class="bullet"><img class="bulletImg" src="1.svg"></img><h3>Must be an existing house that you live in</h3></div>

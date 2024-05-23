@@ -15,17 +15,17 @@ export default function GoingGreen() {
             <p>Green Energy, a type of renewable energy, is energy that has no negative effects on the environment, and is constantly and naturally replenished. Green energy can be attained through different sources such as solar power and wind power. The rate at which these types of energy are harnessed and stored are significantly larger than the rate at which humans consume this energy and generate electricity. This is less harmful to the environment than the burning of fossil fuels, as there are no greenhouse gas emissions that lead to air and water pollution.</p>
           </div>
 
-          <img src="Green Energy.svg"></img>
+          <img loading="eager" src="Green Energy.svg"></img>
         </div>
       </div>
       <div class="bento">
         <div class="bentoTitle"><div>Go Green in 6 Easy Steps</div></div>
-        <a href="#mech"class="mechanicalBento"><div><img src="gears.svg"></img><p>Make swaps to existing mechanical systems</p></div></a>
-        <a href="#water" class="waterBento"><div><img src="Faucet.svg"></img><p>Improve Water Heating Systems</p></div></a>
-        <a href="#foam" class="foamBento"><div><img src="Spray.svg"></img><p>Properly Insulate</p></div></a>
-        <a href="#window" class="windowBento"><div><img src="Window.svg"></img><p>Energy efficient windows to prevent heatloss and reduce the need for air-conditioning</p></div></a>
-        <a href="#lightBulb" class="lightBulbBento"><div><img src="LightBulb.svg"></img><p>Use energy efficient light bulbs</p></div></a>
-        <a href="#solar" class="solarBento"><div><img src="Solar Panel.svg"></img><p>After cutting energy useage renewable energy systems becomes worth it</p></div></a>
+        <a href="#mech"class="mechanicalBento"><div><img loading="eager" src="gears.svg"></img><p>Make swaps to existing mechanical systems</p></div></a>
+        <a href="#water" class="waterBento"><div><img loading="eager" src="Faucet.svg"></img><p>Improve Water Heating Systems</p></div></a>
+        <a href="#foam" class="foamBento"><div><img loading="eager" src="Spray.svg"></img><p>Properly Insulate</p></div></a>
+        <a href="#window" class="windowBento"><div><img loading="eager" src="Window.svg"></img><p>Energy efficient windows to prevent heatloss and reduce the need for air-conditioning</p></div></a>
+        <a href="#lightBulb" class="lightBulbBento"><div><img loading="eager" src="LightBulb.svg"></img><p>Use energy efficient light bulbs</p></div></a>
+        <a href="#solar" class="solarBento"><div><img loading="eager" src="Solar Panel.svg"></img><p>After cutting energy useage renewable energy systems becomes worth it</p></div></a>
       </div>
 
       <div class="flex">
