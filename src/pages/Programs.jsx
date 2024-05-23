@@ -74,7 +74,7 @@ function List(props) {
         ))}
           </p>
           <p>{item.text}</p>
-          <a className="link" href={"programs/" + item.Heading}>Learn More</a>
+          <a className="link" href={"/" + item.Heading}>Learn More</a>
         </div>
       ))}
     </div>

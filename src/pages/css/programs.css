@@ -140,9 +140,7 @@
     font-family:var(--normal);
 
 }
-.body>*{
-  padding:0 20%;
-}
+
 .back::before{
   inset:4px;
 }
@@ -216,4 +214,15 @@
 }
 .infoInfo .link{
   margin-top:0;
+}
+@media (max-width:1000px){
+  .infoGrid{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .infoInfo{
+    border-left:none;
+    border-bottom: solid;
+    margin-bottom:1rem;
+  }
 }

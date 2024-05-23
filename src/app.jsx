@@ -14,10 +14,8 @@ export default function App() {
         <Route path="benefits" element={<Benefits />} />
         <Route path="green" element={<GoingGreen />} />
         <Route path="documentation" element={<Documentation />} />
-        <Route path="programs">
-          <Route path="" element={<Programs />} />
+        <Route path="programs"  element={<Programs />}/>
           <Route path=":programHeader" element={<Info />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   );
