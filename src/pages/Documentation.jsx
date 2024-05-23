@@ -11,7 +11,7 @@ export default function Benefits() {
 
       <div className="center">
         <h1> Sources</h1>
-        <div
+        <div className="sources">
         Environmental Protection Agency, “Local Renewable Energy Benefits and Resources”, EPA, 
 <a href ="https://www.epa.gov/statelocalenergy/local-renewable-energy-benefits-and-resources#:~:text=Benefits%20of%20Renewable%20Energy,-Environmental%20and%20economic&text=Generating%20energy%20that%20produces%20no,in%20manufacturing%2C%20installation%2C%20and%20more"> https://www.epa.gov/statelocalenergy/local-renewable-energy-benefits-and-resources#:~:text=Benefits%20of%20Renewable%20Energy,-Environmental%20and%20economic&text=Generating%20energy%20that%20produces%20no,in%20manufacturing%2C%20installation%2C%20and%20more</a>
 <br/><br/>
@@ -104,6 +104,7 @@ United Nations. “Renewable energy – powering a safer future.” UN,
 National Grid. “What Is Green Energy?” Nationalgrid.com,
 <a  href= "https://www.nationalgrid.com/stories/energy-explained/what-is-green-energy">https://www.nationalgrid.com/stories/energy-explained/what-is-green-energy</a>
 <br/><br/>
+</div>
 
 
         <span class="thin mar"></span>
