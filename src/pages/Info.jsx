@@ -27,7 +27,7 @@ export default function Info() {
                 <div class="infoInfo">
                   <h3 class="tagHeader">Tags</h3>
                   {result.tags.map((tag) => (
-                    <a href={`../programs?search=${tag}`} className="tag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}s!</div></a>
+                    <a href={`../programs?search=${tag}`} className="tag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
                   ))}
                   <h3 className="linkHeader">Learn More</h3>
                   {result.learnMore.map((link) => (
@@ -40,8 +40,9 @@ export default function Info() {
             <div>Program not found</div>
           )}
         </div>
-        <Footer></Footer>
+
       </div>
+      <Footer></Footer>
     </>
   );
 };

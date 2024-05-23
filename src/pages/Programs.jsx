@@ -35,8 +35,9 @@ export default function Programs() {
         </div>
       </div>
       <List input={search} />
-      <Footer/>
       </div>
+      <Footer/>
+
     </>
   );
 }
@@ -53,7 +54,6 @@ function List(props) {
       for (const tag of og.tags) {
         console.log(tag);
         if (tagMatchesInput(tag, props.input)) {
-          console.log(tag + "cooolio");
           tags = true;
           break;
         }
@@ -70,7 +70,7 @@ function List(props) {
           <h1>{item.Heading}</h1>
           <p>
             Tags: {item.tags.map((tag) => (
-          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}s!</div></a>
+          <a href={`../programs?search=${tag}`} className="tag proTag" key={tag}>{tag}<div className="learnMore">See more programs about {tag}!</div></a>
         ))}
           </p>
           <p>{item.text}</p>

@@ -4,7 +4,7 @@
 
 body{
   margin:0;
-  height:100%;
+  min-height:100vh;
 }
 
 #root{
@@ -46,7 +46,7 @@ nav ul a{
   text-decoration:none;
   color:var(--black);
 }
-.active{
+.active, .footer a{
   color:var(--linkColor);
 }
 .logo{
@@ -85,7 +85,9 @@ nav ul a{
 .footer{
   display:flex;
   background:white;
-  max-width: 100%;
+  width:100%;
+  padding-top:1rem;
+  position: absolute;
   justify-content:space-around;
 }
 .footer div ul{

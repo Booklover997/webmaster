@@ -1,36 +1,41 @@
 [{
   "Heading": "AgStar",
-"tags":["automobile"],
+"tags":["biogases","livestock"],
 "text":"A program that aims to reduce methane emissions from livestock waste. This is done through the advancement of biogas recovery systems. Biogas is created through the decomposition of animal waste or manure, and capturing it can decrease greenhouse gas emissions. Using the methane from these emissions can provide a renewable source of energy.",
- "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+ "learnMore":[["Official Website" ,"https://www.epa.gov/agstar"]]
 }, {
-  "Heading": "Combined Heat and Power Partnership (CHP)",
-"tags":["house"],
+  "Heading": "Combined Heat and Power Partnership",
+"tags":[ "efficiency"],
 "text":"A technology that efficiently produces electricity and thermal energy. Due to on-site power generation, there are minimal losses. In conventional power generation, almost two thirds of the energy is released to the atmosphere as heat energy. Using CHP allows it to capture this heat and achieve efficiencies of over 80% and reduce greenhouse gas emissions."
-,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+,  "learnMore":[["Official Website" ,"https://www.epa.gov/chp"]]
+
 
 }, {
   "Heading": "Green Power Partnership",
-"tags":["automobile", "cars"],
+"tags":["green energy"],
 "text":"Encourages organizations to use green energy to benefit the environment and human health. Some goals of this program are to facilitate the American green power market and to reduce greenhouse gas emissions and pollution."
-,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+,  "learnMore":[["Official Website" ,"https://www.epa.gov/greenpower"]]
+
 
 }, {
   "Heading": "Energy Star",
-"tags":["automobile", "hello"],
+"tags":["certification", "efficiency"],
 "text":"A program that helps families make energy efficient choices using strategies that help measure current energy performance, set goals, track savings, and reward improvements. Energy Star provides certified home products that help conserve energy."
-,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+,  "learnMore":[["Official Website" ,"https://www.energystar.gov/"]]
+
 
 }, {
   "Heading": "WaterSense",
-"tags":["car", "plane"],
+"tags":["certification","water"],
 "text":"Offers people ways to use less water through water efficient products. WaterSense is also used as a label to certify products that use 20% less water, save energy, and perform as well as or better than other products."
-,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+,  "learnMore":[["Official Website" ,"https://www.epa.gov/watersense"]]
+
 
 }, {
   "Heading": "RE-Powering America’s Land Initiative",
-"tags":["car", "plane"],
+"tags":["landfills", "contaminants"],
 "text":"Encourages renewable energy advancements on contaminated lands, landfills, and mine sites. Using contaminated lands provide unique attributes that can lower the developmental cost and shorten the times required to develop renewable energy in these areas."
-,  "learnMore":[["docs" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
+,  "learnMore":[["Official Website" ,"https://docs.google.com/document/d/1APVAeeouZ8AOqYPjJYXPTDXtvPkBxqdhjaOurI2jLiU/edit"]]
 
-}] 
+
+}]

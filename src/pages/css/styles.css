@@ -17,6 +17,13 @@
   --section4:var(--lightGreen);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.blue{
+  color:blue;
+}
 .pageContent{
   transition: filter 0.3s ease-in-out;
 }
@@ -173,7 +180,7 @@ h1{
 /* Card code */
 .cardContainer{
   background:var(--section4);
-  padding:10rem 5% 20rem;
+  padding:10rem 5%;
   position:relative;
 }
 .cardFlex{

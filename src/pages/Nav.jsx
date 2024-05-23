@@ -54,13 +54,13 @@ export function Footer() {
         <ul>
           <li>Learn More</li>
           <li>
-            <NavLink link="programs">Programs</NavLink>
+            <NavLink to="/programs">Programs</NavLink>
           </li>
           <li>
-            <NavLink link="green">Go Green</NavLink>
+            <NavLink to="/green">Go Green</NavLink>
           </li>
           <li>
-            <NavLink link="Benefits">Benefits</NavLink>
+            <NavLink to="/Benefits">Benefits</NavLink>
           </li>
         </ul>
       </div>
@@ -68,13 +68,13 @@ export function Footer() {
         <ul>
           <li>Further Exploration</li>
           <li>
-            <NavLink link="#">EPA</NavLink>
+            <NavLink to="https://www.epa.gov/">EPA</NavLink>
           </li>
           <li>
-            <NavLink link="#">Choice 2</NavLink>
+            <NavLink to="https://www.energystar.gov">Energy Star</NavLink>
           </li>
           <li>
-            <NavLink link="#">Choice 3</NavLink>
+            <NavLink to="https://www.energy.gov/">Energy.GOV</NavLink>
           </li>
         </ul>
       </div>
